@@ -1,0 +1,29 @@
+#caminho padrão
+path_default:
+  /home-ifevento
+# configurações de conexão ao banco de dados
+connection:
+  host:
+  name: ..\tads.db
+  user:
+  pass:
+  type: sqlite
+  port:
+# caminhos desprotegidos definidos por expressões regulares
+paths_unprotected:
+  - /home-ifevento/
+  - /form-user/
+  - /add-user/
+  - /login/
+  - /404found/
+  - /busca-user/
+  - /busca-evento/
+# caminho seguido quando é acessado um sem permissão
+path_unprotected_default:
+  /home-ifevento
+# caminho seguido quando é acessado um inexistente
+path_not_found:
+  /404found
+# namespace para controladores
+path_controller:
+  \Ifnc\Tads\Controller\

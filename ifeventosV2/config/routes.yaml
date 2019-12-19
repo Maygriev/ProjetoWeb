@@ -1,0 +1,23 @@
+#Configuração de rotas
+/home-ifevento: HomeIfeventoController
+/home-logado: HomeIfeventoLogadoController
+/form-user: FormUserController
+/login: LoginController
+/logout:  LogoutController
+/add-user: UserController
+/add-evento: EventoController
+/dashboard-user: DashboardUserController
+/dashboard-coord: DashboardCoordController
+/dashboard-aval: DashboardAvalController
+/busca-user: BuscaUserController
+/atribuir-funcao: AtribuirFuncaoUserController
+/remover-funcao: RemoverFuncaoUserController
+/reprovar: ReprovarPropostaController
+/aprovar: AprovarPropostaController
+/busca-evento-coord: BuscaEventoCoordController
+/busca-evento: BuscaEventoController
+/add-atividade: AtividadeController
+/add-proposta: PropostaController
+/busca-atividade: BuscaAtividadeController
+/busca-proposta: BuscaPropostaController
+/404found:  path404Controller
